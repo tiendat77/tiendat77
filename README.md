@@ -16,7 +16,7 @@ class TienDat {
   }
 
   sayJoke() {
-    console.log(`"There are two ways to write error-free programs; only the third works." - Alan J. Perlis" / Twitter`);
+    console.log(`"There are two ways to write error-free programs; only the third works." - Alan J. Perlis`);
   }
 }
 
