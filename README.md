@@ -4,12 +4,11 @@
 
 ```typescript
 class TienDat {
-
   pronouns = 'He' || 'Him';
   name = 'Tien Dat Huynh';
   role = 'Front-end Developer';
-  code = ['Javascript', 'Typescript', 'HTML', 'CSS', 'Angular', 'Ionic', 'NodeJS'];
-  misc = ['Java', 'Krita', 'Inkscape', 'Wordpress'];
+  code = ['Javascript', 'Typescript', 'HTML', 'CSS', 'Angular', 'Ionic', 'NodeJS', 'Tailwindcss', 'Astro'];
+  misc = ['Java', 'Krita', 'Inkscape', 'Figma', 'Wordpress', 'Arduino'];
 
   sayHi() {
     console.log('Thanks for dropping by.');
@@ -22,6 +21,7 @@ class TienDat {
 
 let me = new TienDat();
 me.sayHi();
+me.sayJoke();
 ```
 
 
